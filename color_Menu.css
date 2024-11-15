@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(17, 152, 107);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:darkorange;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu-section {
+    padding: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta el tamaño del cuadrado */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.menu-item {
+    background-color: #555; /* Fondo para cada item del menú */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s; /* Transición al pasar el mouse */
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.menu-item h3 {
+    margin: 10px 0 5px; /* Espaciado para el título */
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+    color: white;
+}

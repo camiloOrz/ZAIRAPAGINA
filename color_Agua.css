@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(17, 152, 107);
+    color: white; /* Color del texto en blanco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkorange;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white; /* Color blanco para el encabezado */
+}
+
+h2 {
+    color: white; /* Color blanco para los subtítulos */
+    border-bottom: 2px solid white; /* Línea decorativa en rojo */
+    padding-bottom: 10px;
+    text-align: center; /* Centrar subtítulo */
+}
+
+.postres-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas */
+    padding: 20px;
+}
+
+.postre-item {
+    background: #555; /* Fondo de las tarjetas */
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 220px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transiciones suaves */
+}
+
+.postre-item:hover {
+    transform: scale(1.05); /* Efecto de aumento */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Sombra al pasar el mouse */
+}
+
+.postre-imagen {
+    max-width: 100%;
+    border-radius: 5px; /* Bordes redondeados en las imágenes */
+}
+
+h3 {
+    margin: 10px 0;
+    color: white; /* Color blanco para los nombres de los postres */
+}
+
+.precio {
+    font-weight: bold;
+    color: white; /* Color blanco para los precios */
+    font-size: 1.2em; /* Aumentar tamaño del precio */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+    color: white; /* Color blanco para el texto del footer */
+}

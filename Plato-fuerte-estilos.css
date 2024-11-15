@@ -1,0 +1,9 @@
+.platos-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plato-item {
+    margin: 20px;
+    text-align: center;
+}

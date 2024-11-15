@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(17, 152, 107);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    background-color: darkorange;
+    padding: 10px;
+    position: relative; /* Necesario para posicionar el texto sobre la franja */
+}
+
+.logo-container {
+    margin-left: -60px; /* Mueve el logo 60px hacia la izquierda */
+    margin-right: 0; /* Elimina el margen derecho */
+}
+
+.logo {
+    width: auto; /* Mantiene la proporción del logo */
+    height: 200px; /* Ajusta la altura del logo */
+    max-height: 150px; /* Limita la altura máxima para que no afecte el menú */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos del menú en una fila */
+    margin-left: auto; /* Alinea el menú a la derecha */
+}
+
+.menu li {
+    margin: 0 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.resaltar {
+    color: orange;
+}
+
+/* Estilos para la franja */
+.franja {
+    background-color: darkorange;
+    height: 60px; /* Altura de la franja */
+    width: 100%; /* Asegura que ocupe toda la pantalla */
+    display: flex; /* Flexbox para alinear el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+/* Estilos para el texto que estará sobre la franja */
+.texto-franja {
+    color: white;
+    text-align: center;
+    font-size: 1.5em; /* Tamaño de letra reducido */
+    font-weight: bold;
+    padding: 10px;
+    max-width: 1200px; /* Limita el ancho del texto */
+    margin: 0 auto; /* Centra el texto en su contenedor */
+}
+
+/* Estilos para las imágenes */
+img {
+    width: 100%;
+    max-width: 1360px;
+    height: auto;
+}
+
+/* Barra lateral */
+aside {
+    background-color: rgb(14,108,76);
+    color: white;
+    padding: 20px;
+}
+
+.pizza-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizza-item {
+    margin: 20px;
+    text-align: center;
+}
